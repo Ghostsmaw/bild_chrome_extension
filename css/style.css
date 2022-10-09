@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+i {
+    color: white;
+    font-size: 12px;
+    margin-right: .5em;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5.5rem;
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#quotes {
+    width: 700px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: flex-start;
+    width: 98%;
+    margin: 1em auto;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+#crypto-title {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.cryptoImg {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.cryptoName {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+#crypto-price, #high-price, #low-price {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+#currentIcon {
+    color: red;
+}
+
+.currentPrice, .upPrice, .downPrice {
+    margin: .5em;
+}
+
+#weather-info {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.fa-cloud-sun-rain {
+    font-size: 35px;
+}
+
+.temp-value {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#weather-loc {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.crypto {
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    padding: 1.2em;
+    background: hsla(0, 0%, 0%, 0.486);
+}
+
+@media (max-width: 600px) {
+    #time {
+        font-size: 3rem;
+    }
+    #quotes {
+        display: none;
+    }
+}
